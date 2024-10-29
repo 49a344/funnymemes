@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Funny Memes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="common/favicon.avif">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">Funny Memes</a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="rainbow">Home</a></li>
+            <li><a href="pepe.html" class="rainbow">Pepe</a></li>
+            <li><a href="amogus.html" class="rainbow">Amogus</a></li>
+            <li><a href="bigchungus.html" class="rainbow">Big Chungus</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <h1>Here is my collection of the funniest images</h1>
+        <ul>
+            <p>Navigate using the navbar</p>
+        </ul>
+
+        <img src="common/static/exercise.avif" alt="Minion meme about exercise">
+
+    </div>
+
+    <footer class="footer" style="text-align: center;">
+        <h2>"Meme" Generator</h2>
+        <p>Copyleft Funnies Inc</p>
+        <input type="file" id="fileInput" accept="image/*" />
+        <span class="rainbow" style="margin-left: 8px;">
+            <span class="nav-links">
+                <button id="overlayButton" class="downloadBtn" style="font-size: 15px;"><a>Generate</a></button>
+            </span>
+        </span>
+        <canvas id="canvas" style="display:none;"></canvas>
+        <div id="fileInfo"></div>
+        <script src="script.js"></script>
+    </footer><br>
+
+</body>
+
+</html>
